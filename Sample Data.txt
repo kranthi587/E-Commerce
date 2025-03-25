@@ -1,0 +1,38 @@
+db.products.insertMany([
+    { name: "Laptop", category: "Electronics", price: 800, stock: 50 },
+    { name: "Smartphone", category: "Electronics", price: 500, stock: 100 },
+    { name: "Headphones", category: "Accessories", price: 150, stock: 75 },
+    { name: "Tablet", category: "Electronics", price: 350, stock: 40 },
+    { name: "Camera", category: "Electronics", price: 600, stock: 30 },
+    { name: "Keyboard", category: "Accessories", price: 50, stock: 120 },
+    { name: "Mouse", category: "Accessories", price: 30, stock: 140 },
+    { name: "Monitor", category: "Electronics", price: 200, stock: 60 },
+    { name: "Speaker", category: "Audio", price: 100, stock: 80 },
+    { name: "Printer", category: "Office", price: 250, stock: 20 }
+])
+
+db.users.insertMany([
+    { _id: 1, name: "John Doe", email: "john@example.com", age: 30, city: "New York" },
+    { _id: 2, name: "Alice Smith", email: "alice@example.com", age: 25, city: "Los Angeles" },
+    { _id: 3, name: "Bob Johnson", email: "bob@example.com", age: 35, city: "Chicago" },
+    { _id: 4, name: "Charlie Brown", email: "charlie@example.com", age: 28, city: "Houston" },
+    { _id: 5, name: "Emma Davis", email: "emma@example.com", age: 27, city: "Phoenix" },
+    { _id: 6, name: "Franklin Wilson", email: "frank@example.com", age: 40, city: "Philadelphia" },
+    { _id: 7, name: "Grace Miller", email: "grace@example.com", age: 33, city: "San Antonio" },
+    { _id: 8, name: "Henry Moore", email: "henry@example.com", age: 29, city: "San Diego" },
+    { _id: 9, name: "Isabella Taylor", email: "isabella@example.com", age: 24, city: "Dallas" },
+    { _id: 10, name: "Jack Anderson", email: "jack@example.com", age: 32, city: "San Francisco" }
+])
+
+db.orders.insertMany([
+    { _id: 201, user_id: 1, product_id: 101, quantity: 1, status: "Shipped" },
+    { _id: 202, user_id: 2, product_id: 102, quantity: 2, status: "Processing" },
+    { _id: 203, user_id: 3, product_id: 103, quantity: 1, status: "Delivered" },
+    { _id: 204, user_id: 4, product_id: 104, quantity: 3, status: "Processing" },
+    { _id: 205, user_id: 5, product_id: 105, quantity: 1, status: "Shipped" },
+    { _id: 206, user_id: 6, product_id: 106, quantity: 5, status: "Delivered" },
+    { _id: 207, user_id: 7, product_id: 107, quantity: 2, status: "Shipped" },
+    { _id: 208, user_id: 8, product_id: 108, quantity: 1, status: "Processing" },
+    { _id: 209, user_id: 9, product_id: 109, quantity: 4, status: "Delivered" },
+    { _id: 210, user_id: 10, product_id: 110, quantity: 1, status: "Shipped" }
+])

@@ -1,0 +1,22 @@
+db.products.find({})
+db.products.find({ "name": "Laptop" })
+
+
+db.products.updateOne(
+    { "name": "Laptop" },
+    { "$set": { "stock": 45 } }
+)
+db.products.updateOne(
+    { "_id": ObjectId("60d5f5a1c2b5a1") },
+    { "$push": { "reviews": { "user": "Alice", "rating": 5, "comment": "Great product!" } } }
+)
+
+db.products.deleteOne({ "_id": ObjectId("60d5f5a1c2b5b2") })
+
+db.products.aggregate([
+    { "$count": "total_products" }
+])
+
+db.products.aggregate([
+    { "$group": { "_id": null, "average_price": { "$avg": "$price" } } }
+])

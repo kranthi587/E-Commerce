@@ -1,0 +1,97 @@
+[{
+  "_id": {
+    "$oid": "67da72ddbf67c1b0bec83c14"
+  },
+  "name": "Laptop",
+  "price": 800
+},
+{
+  "_id": {
+    "$oid": "67da7316bf67c1b0bec83c15"
+  },
+  "name": "Laptop",
+  "category": "Electronics",
+  "price": 800,
+  "stock": 50
+},
+{
+  "_id": {
+    "$oid": "67da7316bf67c1b0bec83c16"
+  },
+  "name": "Smartphone",
+  "category": "Electronics",
+  "price": 500,
+  "stock": 100
+},
+{
+  "_id": {
+    "$oid": "67da7316bf67c1b0bec83c17"
+  },
+  "name": "Headphones",
+  "category": "Accessories",
+  "price": 150,
+  "stock": 75
+},
+{
+  "_id": {
+    "$oid": "67da7316bf67c1b0bec83c18"
+  },
+  "name": "Tablet",
+  "category": "Electronics",
+  "price": 350,
+  "stock": 40
+},
+{
+  "_id": {
+    "$oid": "67da7316bf67c1b0bec83c19"
+  },
+  "name": "Camera",
+  "category": "Electronics",
+  "price": 600,
+  "stock": 30
+},
+{
+  "_id": {
+    "$oid": "67da7316bf67c1b0bec83c1a"
+  },
+  "name": "Keyboard",
+  "category": "Accessories",
+  "price": 50,
+  "stock": 120
+},
+{
+  "_id": {
+    "$oid": "67da7316bf67c1b0bec83c1b"
+  },
+  "name": "Mouse",
+  "category": "Accessories",
+  "price": 30,
+  "stock": 140
+},
+{
+  "_id": {
+    "$oid": "67da7316bf67c1b0bec83c1c"
+  },
+  "name": "Monitor",
+  "category": "Electronics",
+  "price": 200,
+  "stock": 60
+},
+{
+  "_id": {
+    "$oid": "67da7316bf67c1b0bec83c1d"
+  },
+  "name": "Speaker",
+  "category": "Audio",
+  "price": 100,
+  "stock": 80
+},
+{
+  "_id": {
+    "$oid": "67da7316bf67c1b0bec83c1e"
+  },
+  "name": "Printer",
+  "category": "Office",
+  "price": 250,
+  "stock": 20
+}]
